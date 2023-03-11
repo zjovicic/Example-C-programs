@@ -145,7 +145,7 @@ else if(strcmp(choice, "2") == 0)
 else {
     printf("Wrong input!");
 }
-} while(strcmp(choice, "1") != 1 && strcmp(choice, "2") != 0);
+} while(strcmp(choice, "1") != 0 && strcmp(choice, "2") != 0);
 
     free(choice);
     return 0;
